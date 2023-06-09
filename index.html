@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./page/index.css">
+</head>
+
+<body class="page">
+
+	<header class="header">
+		<img class="header__logo" src="./image/logo.svg" alt="logo">
+		<div class="header__Line"></div>
+	</header>
+
+	<main class="wrapper">
+		
+		<section class="profile">
+
+			<img class="profile__avatar" src="./image/profileAvatar.png" alt="Avatar">
+			<div class="profile__info">
+				<div class="profile__wrapper">
+					<h1 class="profile__name">Жак-Ив Кусто</h1>
+					<button class="profile__button" type="button"></button>
+				</div>
+				<p class="profile__subtitle">Исследователь океана</p>
+			</div>
+			<button class="profile__addButton" type="button"></button>
+		</section>
+
+		<section class="elements">
+			<div class="element">
+				<img class="element__image" src="./image/1Karachaevsk.png" alt="Карачаевск">
+				<div class="element__bg">
+					<p class="element__title">Карачаевск</p>
+					<bottom type="button" class="element__like"></bottom>
+				</div>
+			</div>
+
+			<div class="element">
+				<img class="element__image" src="./image/2goraylbrus.png" alt="Карачаевск">
+				<div class="element__bg">
+					<p class="element__title">Гора Эльбрус</p>
+					<bottom type="button" class="element__like"></bottom>
+				</div>
+			</div>
+
+			<div class="element">
+				<img class="element__image" src="./image/3dombai.png" alt="Карачаевск">
+				<div class="element__bg">
+					<p class="element__title">Домбай</p>
+					<bottom type="button" class="element__like"></bottom>
+				</div>
+			</div>
+
+			<div class="element">
+				<img class="element__image" src="./image/2goraylbrus.png" alt="Карачаевск">
+				<div class="element__bg">
+					<p class="element__title">Гора Эльбрус</p>
+					<bottom type="button" class="element__like"></bottom>
+				</div>
+			</div>
+
+			<div class="element">
+				<img class="element__image" src="./image/3dombai.png" alt="Карачаевск">
+				<div class="element__bg">
+					<p class="element__title">Домбай</p>
+					<bottom type="button" class="element__like"></bottom>
+				</div>
+			</div>
+
+			<div class="elements">
+				<div class="element">
+					<img class="element__image" src="./image/1Karachaevsk.png" alt="Карачаевск">
+					<div class="element__bg">
+						<p class="element__title">Карачаево-Черкесия</p>
+						<bottom type="button" class="element__like"></bottom>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="popup">
+			<div class="popup__container">
+				<button type="button" class="popup__close"></button>
+				<form name="popup" action="#" class="popup__form">
+					<h3 class="popup__title">Редактировать профиль</h3>
+					<input id="formName" class="popup__input" type="text" name="name" value="Жак-Ив Кусто">
+					<input id="formSpecial" class="popup__input" type="text" name="special" value="Исследователь океана">
+					<button class="popup__button" type="submit">Сохранить</button>
+				</form>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<p class="footer__text">© 2020 Mesto Russia</p>
+		</footer>
+
+	</main>
+
+
+</body>
+
+</html>
