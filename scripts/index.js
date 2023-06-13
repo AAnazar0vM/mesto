@@ -12,10 +12,12 @@ let profileSubtitle = document.querySelector('.profile__subtitle'); //Описа
 
 
 function showPopup() {
-	popup.classList.add('popup__opened');
+	nameForm.value = profileName.textContent;
+	formSpecial.value = profileSubtitle.textContent;
+	popup.classList.add('popup_opened');
 };
 function hiddenPopup() {
-	popup.classList.remove('popup__opened');
+	popup.classList.remove('popup_opened');
 };
 function handleFormSubmit(evt) {
 	evt.preventDefault();
